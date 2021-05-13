@@ -1,7 +1,7 @@
-const admin = require('firebase-admin')
+const admin = require("firebase-admin");
 
 admin.initializeApp();
 
-const chatbot = require('./chatbot')
+const chatbot = require("./chatbot");
 
 exports.chatbot = chatbot.chatbot;
