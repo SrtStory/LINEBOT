@@ -3,7 +3,9 @@ const admin = require("firebase-admin");
 admin.initializeApp();
 
 const chatbot = require("./chatbot");
-//const sendmessage = require("./sendmessage");
+//const nongke_payload = require("./nongke_payload");
+//const nongke_about = require("./nongke_about");
 
 exports.chatbot = chatbot.chatbot;
-//exports.sendmessage = sendmessage.sendmessage;
+//exports.nongke_payload = nongke_payload.nongke_payload;
+//exports.chatbot = nongke_about.chatbot;
